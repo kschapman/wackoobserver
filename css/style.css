@@ -1,0 +1,534 @@
+/*-----------------GENERAL----------------*/
+
+@font-face {
+	font-family: Artbrush;
+	src: url('../fonts/Artbrush.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Abel;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.row {
+	display: inline-block;
+}
+
+.wide-heading {
+  margin-top: 35px;
+}
+
+.description {
+  text-align: center;
+  max-width: 600px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text {
+  text-align: -webkit-center;
+}
+
+.video {
+      text-align: center;
+		}
+
+/*-----------------HOME PAGE IMAGES----------------*/
+
+.index-film {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-film {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-screenplays {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-screenplays {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-music {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-music {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-hozho {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-hozho {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-baik {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-baik {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-intrigue {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-intrigue {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-websites {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-websites {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-photography {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-photography {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-film, .index-fade-film {
+	margin-top: 70px;
+}
+
+/*------------------PHOTOGRAPHY-----------------*/
+
+.photos {
+	text-align: center;
+}
+
+.photo-img {
+	max-width: 470px;
+	padding: 20px !important;
+	float: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+  img {
+    width: 90% !important;
+    padding: 5% !important;
+  }
+
+	.nav-links {
+		display: none;
+	}
+
+	.logo {
+		margin-right: 0;
+	}
+
+	.photo-img {
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.index-screenplays, .index-fade-screenplays {
+		margin-top: 70px;
+	}
+}
+
+.photo-box {
+	padding: 2% 5% 2% 5%;
+}
+
+.photo-single {
+	max-width: 100%;
+}
+
+/*------------------CONTACT-----------------*/
+
+.contact-page {
+  text-align: center;
+}
+
+.contact {
+	line-height: 25px;
+}
+
+.instagram {
+	max-width: 35px;
+	float: none !important;
+  padding: 0 !important;
+}
+
+.space {
+	height: 80px;
+}
+
+/*--------------HAMBURGER-------------*/
+
+#burger-container {
+  width: 30px;
+	position: fixed;
+	right: 5%;
+	top: 40px;
+}
+
+#burger {
+  display: block;
+}
+
+#burger span {
+  background: black;
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin-bottom: 5px;
+  transition: all ease-in-out 0.4s;
+  position: relative;
+  top: 0;
+}
+
+#burger-container.open span:nth-child(2) {
+  width: 0;
+  opacity: 0;
+}
+
+#burger-container.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 9px;
+}
+
+#burger-container.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: -12px;
+}
+
+#slide {
+  height: 400px;
+  width: 100%;
+  list-style-type: none;
+  display: none;
+  position: fixed;
+	background-color: white;
+	z-index: 999;
+}
+
+#slide li {
+  list-style-type: none;
+	font-size: 20px;
+	line-height: 0px;
+  margin-top: 50px;
+	text-align: center;
+}
+
+#slide li a {
+  text-decoration: none;
+	margin-right: 50px;
+}
+
+#film-link {
+	margin-top: 10px !important;
+}
+
+/*--------------MUSIC VIDEOS-------------*/
+
+@media screen and (max-width: 670px) {
+				iframe {
+		  			width: 96%;
+            padding: 2%;
+		}
+}
+
+/*------------------FILM-----------------*/
+
+.credits-close, .credits-reverie {
+  display: none;
+}
+
+.close-enough:hover, .reverie:hover {
+  cursor: pointer;
+}
+
+.credits {
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*------------------ABOUT-----------------*/
+
+.about {
+  text-align: center !important;
+}
+
+.about-photo {
+  max-width: 170px;
+  float: none !important;
+  padding: 0 !important;
+	margin-top: 100px;
+	margin-left: 0 !important;
+  margin-right: 0 !important;
+	border-radius: 50%;
+}
+
+/*------------------HOZHO-----------------*/
+
+.container {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.description-hozho {
+	text-align: center;
+  max-width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.issue {
+	text-align: center;
+	width: 45%;
+  padding: 0% 2.5%;
+	float: left;
+}
+
+.hozho {
+	float: left;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.issue {
+			width: 96%;
+      padding: 2%;
+		}
+}
+
+@media screen and (min-width: 1025px) {
+
+	#burger-container {
+		display: none;
+	}
+}
+
+.border {
+	/*border: 1px solid black;*/
+	box-shadow: 2px 2px 12px #888888;
+}
+
+/*------------------THE INTRIGUE-----------------*/
+
+.container-intrigue {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row-intrigue {
+	display: inline-block;
+	padding-top: 9px;
+}
+
+.intrigue-photo {
+	width: 25%;
+	float: left;
+}
+
+.intrigue-info {
+	width: 75%;
+	float: left;
+	margin-top: -10px;
+}
+
+.intrigue-img {
+	max-width: 230px;
+	border-radius: 50%;
+}
+
+.description-intrigue {
+	text-align:
+  max-width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+
+/*----------------WEBSITES---------------*/
+
+.web {
+	text-align: center;
+}
+
+.web-image {
+	max-width: 800px;
+	float: none !important;
+	padding: 0 !important;
+}
+
+.web-link {
+	text-decoration: underline;
+}
+
+/*------------------NAV-----------------*/
+
+.logo {
+  background-color: white;
+  margin-left: 14px;
+	position: fixed;
+  width: 100%;
+}
+
+.kc {
+  font-family: artbrush;
+  font-size: 44px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+	.container-intrigue {
+		max-width: 650px;
+	}
+
+	.intrigue-photo {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	  margin-right: 0;
+		margin-bottom: -25px;
+	}
+
+	.row-intrigue {
+		text-align: center;
+		padding-top: 0px;
+		margin-top: -10px;
+	}
+
+	.intrigue-info {
+		width: 100%;
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+  .kc {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+
+	.about-photo {
+		max-width: 140px;
+		margin-top: 80px;
+	}
+
+	.logo {
+		margin-left: 0px;
+	}
+
+	.wide-heading {
+	  margin-top: 15px;
+	}
+
+	.space {
+		height: 60px;
+	}
+
+	#burger-container {
+		top: 30px;
+	}
+
+	#burger span {
+	  width: 25px;
+	  height: 4px;
+	  margin-bottom: 4px;
+	}
+
+	#burger-container.open span:nth-child(2) {
+	  width: 0;
+	  opacity: 0;
+	}
+
+	#burger-container.open span:nth-child(1) {
+	  transform: rotate(45deg);
+	  top: 9px;
+	}
+
+	#burger-container.open span:nth-child(3) {
+	  transform: rotate(-45deg);
+	  top: -8px;
+	}
+}
