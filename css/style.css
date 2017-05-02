@@ -50,10 +50,8 @@ hr {
   max-width: 600px;
   padding-right: 15px;
   padding-left: 15px;
-}
-
-.text {
-  text-align: -webkit-center;
+	margin-left: auto;
+  margin-right: auto;
 }
 
 .video {
@@ -218,6 +216,8 @@ hr {
   max-width: 800px;
   padding-right: 20px;
   padding-left: 20px;
+	margin-left: auto;
+  margin-right: auto;
 }
 
 .issue {
@@ -266,7 +266,6 @@ hr {
 }
 
 .description-intrigue {
-	text-align:
   max-width: 800px;
   padding-right: 20px;
   padding-left: 20px;
