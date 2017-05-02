@@ -174,12 +174,20 @@ hr {
 
 .photos {
 	text-align: center;
+	max-width: 1669px;
+	padding: 1%;
+	margin: auto;
 }
 
-.photo-img {
+/*.photo-img {
 	max-width: 470px;
 	padding: 20px !important;
 	float: none !important;
+}*/
+
+.photo-img {
+	width: 31%;
+	margin: 1%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -197,7 +205,16 @@ hr {
 	}
 
 	.photo-img {
-		max-width: 100%;
+		width: 47% !important;
+		padding: 0 !important;
+		margin: 1%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.photo-img {
+		width: 96% !important;
+		padding: 1%;
 	}
 }
 
