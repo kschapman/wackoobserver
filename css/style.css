@@ -60,288 +60,21 @@ hr {
       text-align: center;
 		}
 
-/*-----------------HOME PAGE IMAGES----------------*/
+/*------------------NAV-----------------*/
 
-.index-film {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
+.logo {
+  background-color: white;
+  margin-left: 14px;
+	position: fixed;
+  width: 100%;
 }
 
-.index-fade-film {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-screenplays {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-}
-
-.index-fade-screenplays {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-music {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-}
-
-.index-fade-music {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-hozho {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-}
-
-.index-fade-hozho {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-baik {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-}
-
-.index-fade-baik {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-intrigue {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-}
-
-.index-fade-intrigue {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-websites {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-}
-
-.index-fade-websites {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-photography {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-}
-
-.index-fade-photography {
-  width: 45%;
-  float: left;
-  padding: 2.5%;
-  display: none;
-}
-
-.index-film, .index-fade-film, .index-film2 {
-	margin-top: 70px;
-}
-
-.index-film2 {
-  display: none;
-}
-
-.index-screenplays2 {
-	display: none;
-}
-
-.index-music2 {
-	display: none;
-}
-
-.index-hozho2 {
-	display: none;
-}
-
-.index-baik2 {
-	display: none;
-}
-
-.index-intrigue2 {
-	display: none;
-}
-
-.index-websites2 {
-	display: none;
-}
-
-.index-photography2 {
-	display: none;
-}
-
-
-/*------------------PHOTOGRAPHY-----------------*/
-
-.photos {
-	text-align: center;
-	max-width: 1669px;
-	padding: 1%;
-	margin: auto;
-}
-
-.photo-img {
-	width: 31%;
-	margin: 1%;
-}
-
-@media screen and (max-width: 1024px) {
-  img {
-    width: 90% !important;
-    padding: 5% !important;
-  }
-
-	.index-film {
-		display: none !important;
-	}
-
-	.index-film2 {
-		display: block;
-	}
-
-	.index-screenplays {
-		display: none !important;
-	}
-
-	.index-screenplays2 {
-		display: block;
-	}
-
-	.index-music {
-		display: none !important;
-	}
-
-	.index-music2 {
-		display: block;
-	}
-
-	.index-hozho {
-		display: none !important;
-	}
-
-	.index-hozho2 {
-		display: block;
-	}
-
-	.index-baik {
-		display: none !important;
-	}
-
-	.index-baik2 {
-		display: block;
-	}
-
-	.index-intrigue {
-		display: none !important;
-	}
-
-	.index-intrigue2 {
-		display: block;
-	}
-
-	.index-websites {
-		display: none !important;
-	}
-
-	.index-websites2 {
-		display: block;
-	}
-
-	.index-photography {
-		display: none !important;
-	}
-
-	.index-photography2 {
-		display: block;
-	}
-
-	.nav-links {
-		display: none;
-	}
-
-	.logo {
-		margin-right: 0;
-	}
-
-	.photo-img {
-		width: 47% !important;
-		padding: 0 !important;
-		margin: 1%;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.photo-img {
-		width: 96% !important;
-		padding: 1%;
-	}
-}
-
-@media screen and (min-width: 1025px) {
-	.index-screenplays, .index-fade-screenplays {
-		margin-top: 70px;
-	}
-}
-
-.photo-box {
-	padding: 2% 5% 2% 5%;
-}
-
-.photo-single {
-	max-width: 100%;
-}
-
-
-/*------------------CONTACT-----------------*/
-
-.contact-page {
+.kc {
+  font-family: artbrush;
+  font-size: 44px;
   text-align: center;
-}
-
-.contact {
-	line-height: 25px;
-}
-
-.instagram {
-	max-width: 35px;
-	float: none !important;
-  padding: 0 !important;
-}
-
-.space {
-	height: 80px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /*--------------HAMBURGER-------------*/
@@ -410,13 +143,50 @@ hr {
 	margin-top: 10px !important;
 }
 
-/*--------------MUSIC VIDEOS-------------*/
+/*------------HOME PAGE IMAGES-----------*/
 
-@media screen and (max-width: 670px) {
-				iframe {
-		  			width: 96%;
-            padding: 2%;
-		}
+.index-film,
+.index-screenplays,
+.index-music,
+.index-hozho,
+.index-baik,
+.index-intrigue,
+.index-websites,
+.index-photography {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+
+.index-fade-film,
+.index-fade-screenplays,
+.index-fade-music,
+.index-fade-hozho,
+.index-fade-baik,
+.index-fade-intrigue,
+.index-fade-websites,
+.index-fade-photography {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  display: none;
+}
+
+.index-film,
+.index-fade-film,
+.index-film2 {
+	margin-top: 70px;
+}
+
+.index-film2,
+.index-screenplays2,
+.index-music2,
+.index-hozho2,
+.index-baik2,
+.index-intrigue2,
+.index-websites2,
+.index-photography2 {
+  display: none;
 }
 
 /*------------------FILM-----------------*/
@@ -435,23 +205,7 @@ hr {
   padding-left: 15px;
 }
 
-/*------------------ABOUT-----------------*/
-
-.about {
-  text-align: center !important;
-}
-
-.about-photo {
-  max-width: 170px;
-  float: none !important;
-  padding: 0 !important;
-	margin-top: 100px;
-	margin-left: 0 !important;
-  margin-right: 0 !important;
-	border-radius: 50%;
-}
-
-/*------------------HOZHO-----------------*/
+/*-------------HOZHO/SCREENPLAYS------------*/
 
 .container {
 	max-width: 1024px;
@@ -476,20 +230,6 @@ hr {
 .hozho {
 	float: left;
 	width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-	.issue {
-			width: 96%;
-      padding: 2%;
-		}
-}
-
-@media screen and (min-width: 1025px) {
-
-	#burger-container {
-		display: none;
-	}
 }
 
 .border {
@@ -548,47 +288,69 @@ hr {
 	text-decoration: underline;
 }
 
-/*------------------NAV-----------------*/
-
-.logo {
-  background-color: white;
-  margin-left: 14px;
-	position: fixed;
-  width: 100%;
+.web-text {
+	font-size: 17px;
 }
 
-.kc {
-  font-family: artbrush;
-  font-size: 44px;
+/*------------------PHOTOGRAPHY-----------------*/
+
+.photos {
+	text-align: center;
+	max-width: 1669px;
+	padding: 1%;
+	margin: auto;
+}
+
+.photo-img {
+	width: 31%;
+	margin: 1%;
+}
+
+.photo-box {
+	padding: 2% 5% 2% 5%;
+}
+
+.photo-single {
+	max-width: 100%;
+}
+
+/*------------------ABOUT-----------------*/
+
+.about {
+  text-align: center !important;
+}
+
+.about-photo {
+  max-width: 170px;
+  float: none !important;
+  padding: 0 !important;
+	margin-top: 100px;
+	margin-left: 0 !important;
+  margin-right: 0 !important;
+	border-radius: 50%;
+}
+
+/*------------------CONTACT-----------------*/
+
+.contact-page {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1024px) {
-	.container-intrigue {
-		max-width: 650px;
-	}
-
-	.intrigue-photo {
-		width: 100%;
-		float: none;
-		margin-left: 0;
-	  margin-right: 0;
-		margin-bottom: -25px;
-	}
-
-	.row-intrigue {
-		text-align: center;
-		padding-top: 0px;
-		margin-top: -10px;
-	}
-
-	.intrigue-info {
-		width: 100%;
-		margin-top: 0px;
-	}
+.contact {
+	line-height: 25px;
 }
+
+.instagram {
+	max-width: 35px;
+	float: none !important;
+  padding: 0 !important;
+}
+
+.space {
+	height: 80px;
+}
+
+/*----------------MEDIA QUERIES---------------*/
 
 @media screen and (max-width: 480px) {
   .kc {
@@ -636,5 +398,102 @@ hr {
 	#burger-container.open span:nth-child(3) {
 	  transform: rotate(-45deg);
 	  top: -8px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	iframe {
+			width: 96%;
+      padding: 2%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.issue {
+			width: 96%;
+      padding: 2%;
+		}
+}
+
+@media screen and (max-width: 1024px) {
+  img {
+    width: 90% !important;
+    padding: 5% !important;
+  }
+
+	.index-film,
+	.index-screenplays,
+	.index-music,
+	.index-hozho,
+	.index-baik,
+	.index-intrigue,
+	.index-websites,
+	.index-photography {
+		display: none !important;
+	}
+
+	.index-film2,
+	.index-screenplays2,
+	.index-music2,
+	.index-hozho2,
+	.index-baik2,
+	.index-intrigue2,
+	.index-websites2,
+	.index-photography2 {
+		display: block;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.logo {
+		margin-right: 0;
+	}
+
+	.container-intrigue {
+		max-width: 650px;
+	}
+
+	.intrigue-photo {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	  margin-right: 0;
+		margin-bottom: -25px;
+	}
+
+	.row-intrigue {
+		text-align: center;
+		padding-top: 0px;
+		margin-top: -10px;
+	}
+
+	.intrigue-info {
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.photo-img {
+		width: 47% !important;
+		padding: 0 !important;
+		margin: 1%;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.index-screenplays, .index-fade-screenplays {
+		margin-top: 70px;
+	}
+
+	#burger-container {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.photo-img {
+		width: 96% !important;
+		padding: 1%;
 	}
 }
