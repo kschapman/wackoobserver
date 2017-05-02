@@ -166,9 +166,42 @@ hr {
   display: none;
 }
 
-.index-film, .index-fade-film {
+.index-film, .index-fade-film, .index-film2 {
 	margin-top: 70px;
 }
+
+.index-film2 {
+  display: none;
+}
+
+.index-screenplays2 {
+	display: none;
+}
+
+.index-music2 {
+	display: none;
+}
+
+.index-hozho2 {
+	display: none;
+}
+
+.index-baik2 {
+	display: none;
+}
+
+.index-intrigue2 {
+	display: none;
+}
+
+.index-websites2 {
+	display: none;
+}
+
+.index-photography2 {
+	display: none;
+}
+
 
 /*------------------PHOTOGRAPHY-----------------*/
 
@@ -178,12 +211,6 @@ hr {
 	padding: 1%;
 	margin: auto;
 }
-
-/*.photo-img {
-	max-width: 470px;
-	padding: 20px !important;
-	float: none !important;
-}*/
 
 .photo-img {
 	width: 31%;
@@ -195,6 +222,70 @@ hr {
     width: 90% !important;
     padding: 5% !important;
   }
+
+	.index-film {
+		display: none !important;
+	}
+
+	.index-film2 {
+		display: block;
+	}
+
+	.index-screenplays {
+		display: none !important;
+	}
+
+	.index-screenplays2 {
+		display: block;
+	}
+
+	.index-music {
+		display: none !important;
+	}
+
+	.index-music2 {
+		display: block;
+	}
+
+	.index-hozho {
+		display: none !important;
+	}
+
+	.index-hozho2 {
+		display: block;
+	}
+
+	.index-baik {
+		display: none !important;
+	}
+
+	.index-baik2 {
+		display: block;
+	}
+
+	.index-intrigue {
+		display: none !important;
+	}
+
+	.index-intrigue2 {
+		display: block;
+	}
+
+	.index-websites {
+		display: none !important;
+	}
+
+	.index-websites2 {
+		display: block;
+	}
+
+	.index-photography {
+		display: none !important;
+	}
+
+	.index-photography2 {
+		display: block;
+	}
 
 	.nav-links {
 		display: none;
