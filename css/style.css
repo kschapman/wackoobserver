@@ -88,6 +88,17 @@ hr {
 	margin-right:10px;
 }
 
+.nav-contact {
+	font-size:18px;
+	font-family: Abel;
+	margin-left: 10px;
+}
+
+.nav-about {
+	font-size:18px;
+	font-family: Abel;
+	margin-right:10px;
+}
 /*--------------HAMBURGER-------------*/
 
 #burger-container {
