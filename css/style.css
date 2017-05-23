@@ -41,6 +41,10 @@ hr {
 	display: inline-block;
 }
 
+.row-hozho {
+	display: block;
+}
+
 .wide-heading {
   margin-top: 35px;
 }
