@@ -63,6 +63,11 @@ hr {
   text-align: center;
 }
 
+.page-heading {
+	color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 /*------------------NAV-----------------*/
 
 .logo {
