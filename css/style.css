@@ -11,6 +11,10 @@ body {
   font-family: Abel;
 }
 
+.left {
+	text-align: left !important;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -52,9 +56,7 @@ hr {
 
 .description {
   text-align: center;
-  max-width: 600px;
-  padding-right: 15px;
-  padding-left: 15px;
+  max-width: 630px;
 	margin-left: auto;
   margin-right: auto;
 }
@@ -63,16 +65,11 @@ hr {
   text-align: center;
 }
 
-.page-heading {
-	color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-
 /*------------------NAV-----------------*/
 
 .logo {
   background-color: white;
-  margin-left: 14px;
+	padding-bottom: 5px;
 	position: fixed;
   width: 100%;
 	z-index: 69;
@@ -82,33 +79,23 @@ hr {
   font-family: artbrush;
   font-size: 44px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+	padding-right: 2.5%;
 }
 
 .nav-links {
-	font-size:18px;
+	font-size: 20px;
 	font-family: Abel;
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
 }
 
-.nav-right {
-	margin-left: 10px;
-}
-
-.nav-left {
-	margin-right:10px;
-}
-
-.nav-contact {
-	font-size:18px;
-	font-family: Abel;
-	margin-left: 10px;
-}
-
-.nav-about {
-	font-size:18px;
-	font-family: Abel;
-	margin-right:10px;
+.nav-kc {
+	float: left;
+	padding-left: 2.5%;
+	z-index: 998 !important;
 }
 
 a.nav-kc:hover {
@@ -121,6 +108,7 @@ a.nav-kc:hover {
 	position: fixed;
 	right: 5%;
 	top: 40px;
+	z-index: 999;
 }
 
 #burger {
@@ -154,13 +142,15 @@ a.nav-kc:hover {
 }
 
 #slide {
-  height: 400px;
+  height: 495px;
   width: 100%;
   list-style-type: none;
   display: none;
   position: fixed;
 	background-color: white;
-	z-index: 999;
+	margin-top: 34px;
+	margin-left: -10px;
+	z-index: 997;
 }
 
 #slide li {
@@ -168,7 +158,6 @@ a.nav-kc:hover {
 	font-size: 20px;
 	line-height: 100%;
   margin-top: 28px;
-	text-align: center;
 }
 
 #slide li a {
@@ -230,16 +219,13 @@ a.nav-kc:hover {
 
 .credits-close, .credits-reverie {
   display: none;
+	max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .close-enough:hover, .reverie:hover {
   cursor: pointer;
-}
-
-.credits {
-  text-align: center;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 /*-------------HOZHO/SCREENPLAYS------------*/
@@ -251,8 +237,8 @@ a.nav-kc:hover {
 }
 
 .description-hozho {
-	text-align: center;
-  max-width: 800px;
+	text-align: left;
+  max-width: 920px;
   padding-right: 20px;
   padding-left: 20px;
 	margin-left: auto;
@@ -332,6 +318,10 @@ a.nav-kc:hover {
 
 .website-bottom {
 	margin-bottom: 35px;
+}
+
+.webdes {
+	max-width: 800px;
 }
 
 /*------------------PHOTOGRAPHY-----------------*/
@@ -538,4 +528,59 @@ a.nav-kc:hover {
 		width: 96% !important;
 		padding: 1%;
 	}
+}
+
+@media screen and (min-width: 2200px) {
+	.index-film,
+	.index-screenplays,
+	.index-music,
+	.index-hozho,
+	.index-baik,
+	.index-intrigue,
+	.index-websites,
+	.index-photography,
+	.index-fade-film,
+	.index-fade-screenplays,
+	.index-fade-music,
+	.index-fade-hozho,
+	.index-fade-baik,
+	.index-fade-intrigue,
+	.index-fade-websites,
+	.index-fade-photography {
+		width: 31.3%;
+		padding: 1%;
+		float: left;
+	}
+
+	.index-screenplays, .index-fade-screenplays, .index-film,
+	 .index-fade-film{
+		margin-top: 0;
+	}
+
+	.index-websites, .index-fade-websites	{
+		padding-left: 16.5%;
+	}
+
+	.index-photography, .index-fade-photography {
+		padding-right: 16.5%;
+	}
+
+	.row {
+		display: block;
+	}
+
+	.bla {
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 75px;
+	}
+
+	.logo {
+		padding-left: 0.5%;
+	}
+
+	.kc {
+		padding-right: 3.5%;
+	}
+
 }
