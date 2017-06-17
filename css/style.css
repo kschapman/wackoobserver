@@ -153,9 +153,9 @@ a.nav-kc:hover {
   display: none;
   position: fixed;
 	background-color: white;
-	margin-top: 34px;
+	margin-top: 25px;
 	margin-left: -10px;
-	z-index: 997;
+	z-index: 999;
 }
 
 #slide li {
