@@ -112,7 +112,7 @@ a.nav-kc:hover {
   width: 30px;
 	position: fixed;
 	right: 5%;
-	top: 40px;
+	top: 35px;
 	z-index: 999;
 }
 
@@ -147,15 +147,15 @@ a.nav-kc:hover {
 }
 
 #slide {
-  height: 495px;
-  width: 100%;
+	max-height: 100vh;
   list-style-type: none;
   display: none;
-  position: fixed;
 	background-color: white;
-	margin-top: 25px;
+	margin-top: 75px;
 	margin-left: -10px;
 	z-index: 999;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 #slide li {
@@ -413,8 +413,12 @@ a.nav-kc:hover {
 		height: 60px;
 	}
 
+	#slide {
+		margin-top: 60px;
+	}
+
 	#burger-container {
-		top: 30px;
+		top: 25px;
 	}
 
 	#burger span {
